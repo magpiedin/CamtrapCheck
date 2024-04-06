@@ -1,0 +1,115 @@
+{
+    "id": "55a9f7ea-f07f-4e1c-84f5-32ef46604189",
+    "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/camtrap-dp-profile.json",
+    "name": "learningplatformbeaver-wildlife_camera-2024-01-31",
+    "title": "Urban Rivers - Wildlife_Camera at LearningPlatformBeaver on 2024-01-31",
+    "created": "2024-03-24T12:40:01-06:00",
+    "description": "",
+    "version": "1.0",
+    "keywords": [
+        "Urban Rivers",
+        "urban wildlife",
+        "camera traps"
+    ],
+    "image": "",
+    "homepage": "https://www.urbanriv.org",
+    "sources": ["Urban Rivers sdUploader"],
+    "bibliographicCitation": "",
+    "licenses": [
+        {
+            "name": "CC0-1.0",
+            "scope": "data"
+        },
+        {
+            "path": "http://creativecommons.org/licenses/by/4.0/",
+            "scope": "media"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Urban Rivers",
+            "role:": "contributor",
+            "organization": "Urban Rivers"
+        },
+        {
+            "title": "Nick Wesley",
+            "email": "team@urbanriv.org",
+            "path": "https://orcid.org/0000-0000",
+            "role": "contact",
+            "organization": "Urban Rivers"
+        },
+        {
+            "title": "Urban Rivers",
+            "path": "https://www.urbanriv.org",
+            "role": "rightsHolder"
+        },
+        {
+            "title": "Urban Rivers",
+            "path": "https://www.urbanriv.org",
+            "role": "publisher"
+        }
+    ],
+    "project": {
+        "title": "Urban Rivers - Camera Trap Project 2024",
+        "id": "55a9f7ea-f07f-4e1c-84f5-32ef46604189",
+        "acronym": "",
+        "description": "",
+        "path": "https://www.urbanriv.org",
+        "samplingDesign": "opportunistic",
+        "captureMethod": [
+            "activityDetection",
+            "timeLapse"
+        ],
+        "individualAnimals": false,
+        "observationLevel": [
+            "media",
+            "event"
+        ]
+    },
+    "spatial": {
+        "type": "Point",
+        "coordinates": [
+            41.907144,
+            -87.652254
+        ]
+    },
+    "temporal": {
+        "start": "2024-01-25T21:14:16-0600",
+        "end": "2024-01-31T18:49:13-0600"
+    },
+    "taxonomic": [{
+      "taxonID": "5WRC3",
+      "taxonIDReference": "https://www.checklistbank.org/dataset/292011/taxon/5WRC3",
+      "scientificName": "Branta canadensis",
+      "taxonRank": "species",
+      "vernacularNames": {
+        "eng": "Canada Goose"
+      }
+    }],
+    "resources": [
+        {
+            "path": "deployments.csv",
+            "name": "deployments",
+            "scheme": "file",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json"
+        },
+        {
+            "path": "media.csv",
+            "name": "media",
+            "scheme": "file",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json"
+        },
+        {
+            "path": "observations.csv",
+            "name": "observations",
+            "scheme": "file",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json"
+        }
+    ]
+}

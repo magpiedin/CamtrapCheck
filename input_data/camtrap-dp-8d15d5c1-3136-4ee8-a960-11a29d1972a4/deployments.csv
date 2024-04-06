@@ -1,0 +1,2 @@
+deploymentID,locationID,locationName,latitude,longitude,coordinateUncertainty,deploymentStart,deploymentEnd,setupBy,cameraID,cameraModel,cameraDelay,cameraHeight,cameraDepth,cameraTilt,cameraHeading,detectionDistance,timestampIssues,baitUse,featureType,habitat,deploymentGroups,deploymentTags,deploymentComments
+Prologis_02-2024-01-30-Wildlife_Camera,,Prologis_02,41.84799,-87.6502,25,2024-01-24T13:02:12-0600,2024-01-30T18:45:12-0600,,,TC-XG2,,,,,,,,,,,,,
