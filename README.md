@@ -24,6 +24,9 @@ Run the `camtrapSandbox.R` script by entering this in the RStudio console: `sour
   
 Run the `gridSandbox.R` script by entering this in the RStudio console: `source("gridSandbox.R")`
 
+### gridSandbox.R demo
+See a demo of the gridSandbox map [here](https://kate-webbink.shinyapps.io/sandbox_app/)
+
 ## Next steps
 - Which Camera Trap or other Wild Mile data would it help to tie together?
 - How / Where / For whom?
