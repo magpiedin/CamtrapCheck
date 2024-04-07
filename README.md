@@ -16,6 +16,9 @@ install.packages(c("camtraptor", "ggplot2", "hrbrthemes", "plotly", "readr"))
 
 Run the `camtrapSandbox.R` script by entering this in the RStudio console: `source("camtrapSandbox.R")`
 
+<img width="600" alt="camtrap-dp map" src="https://github.com/magpiedin/CamtrapCheck/assets/8563362/ee82c730-b9bd-421e-8699-8f22ea272bb4">
+
+
 ## [gridSandbox.R](https://github.com/magpiedin/CamtrapCheck/blob/main/gridSandbox.R)
 - input: 3 CSVs in [input_data/tables](https://github.com/magpiedin/CamtrapCheck/tree/main/input_data/tables)
 - output: 
@@ -23,6 +26,9 @@ Run the `camtrapSandbox.R` script by entering this in the RStudio console: `sour
   - [plants_in_modules.csv](https://github.com/magpiedin/CamtrapCheck/tree/main/output_data) -- consolidated table of which plants are/were where in the Wild Mile modules
   
 Run the `gridSandbox.R` script by entering this in the RStudio console: `source("gridSandbox.R")`
+
+<img width="600" alt="grid of plants on Wild Mile modules" src="https://github.com/magpiedin/CamtrapCheck/assets/8563362/49410a9f-1e30-4da5-84cb-a59dbeed5ca7">
+
 
 ### gridSandbox.R demo
 See a demo of the gridSandbox map [here](https://kate-webbink.shinyapps.io/sandbox_app/)
