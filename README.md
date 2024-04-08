@@ -5,14 +5,20 @@ Scripts to check a dataset in camtrap-dp format
 1. Install R & [RStudio](https://posit.co/download/rstudio-desktop/)
 2. Clone or Download this repo
 3. Open the 'Rproj' file in RStudio
-4. Install required packages (e.g. [`camtraptor`](https://github.com/inbo/camtraptor/)) by running this in the RStudio console (lower-left panel):
+4. Install required packages by running this in the RStudio console (lower-left panel):
 ```
-install.packages(c("camtraptor", "ggplot2", "hrbrthemes", "plotly", "readr"))
+install.packages(c("ggplot2", "hrbrthemes", "plotly", "readr"))
+```
+
+The [`camtraptor`](https://github.com/inbo/camtraptor/) package is not currently available on CRAN, but it can be installed with `devtools::install()` as shown below:
+```
+install.packages("devtools")
+devtools::install_github("inbo/camtraptor")
 ```
 
 ## [camtrapSandbox.R](https://github.com/magpiedin/CamtrapCheck/blob/main/camtrapSandbox.R)
-- input: [camtrap-dp](https://camtrap-dp.tdwg.org) dataset datapackage.json file -- e.g. [here](https://github.com/magpiedin/CamtrapCheck/blob/main/input_data/camtrap-dp-55a9f7ea-f07f-4e1c-84f5-32ef46604189/datapackage.json)
-- output: summaries & visual-things
+- **input:** [camtrap-dp](https://camtrap-dp.tdwg.org) dataset datapackage.json file -- e.g. [here](https://github.com/magpiedin/CamtrapCheck/blob/main/input_data/camtrap-dp-55a9f7ea-f07f-4e1c-84f5-32ef46604189/datapackage.json)
+- **output:** summaries & visual-things
 
 Run the `camtrapSandbox.R` script by entering this in the RStudio console: `source("camtrapSandbox.R")`
 
