@@ -6,7 +6,7 @@ Scripts to check a dataset in camtrap-dp format
 1. Setup a login for posit.cloud -- free option here: https://posit.cloud/plans/free
 2. Make your own cloud-copy of this repo by clicking here: https://posit.cloud/content/7957756
     - See [user guide](https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html) for RStudio (similar/same interface as "posit Cloud") for general help
-    - See below for [how to run scripts](https://github.com/magpiedin/CamtrapCheck/main/README.md#how-to-run-scripts) from this repo
+    - See below for [how to run scripts](https://github.com/magpiedin/CamtrapCheck/blob/main/README.md#how-to-run-scripts) from this repo
 
 ### Option b (on your machine):
 1. Install [R](https://cloud.r-project.org/) & [RStudio](https://posit.co/download/rstudio-desktop/)
