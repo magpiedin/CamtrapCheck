@@ -1,5 +1,5 @@
 # CamtrapCheck
-Scripts to check a dataset in camtrap-dp format
+Example-scripts that use the [camtraptor](https://github.com/inbo/camtraptor/) R-package to check a dataset stored in [camtrap-dp](https://camtrap-dp.tdwg.org/) format
 
 ## Setup
 ### Option a (online):
